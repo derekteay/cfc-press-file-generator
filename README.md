@@ -8,6 +8,8 @@ This project uses the AirTable Python Wrapper - https://github.com/gtalarico/air
 # `Sorted` View
 The program will pull everything from AirTable that shows in the `Sorted` View. This View is set to filter only by records that indicate `Show` in the `Visibility` column for that entry as well as sort by the most recent date so that the Press page shows the most recent items first.
 
+![Views Screenshot](view_directions.png "Views Screenshot")
+
 # Adding Data
 Add items to this AirTable - https://airtable.com/tblegjJ1br5Qgt7j9/viwYkTPn34G87Qg41?blocks=hide
 
