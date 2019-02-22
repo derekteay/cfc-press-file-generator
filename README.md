@@ -1,2 +1,4 @@
 # cfc-press-file-generator
-Generate the press.html file for the Call for Code website utilizing AirTable
+Pull data from AirTable and then format it into an HTML file used for our IBM Call for Code Press page.
+
+This project uses the AirTable Python Wrapper - https://github.com/gtalarico/airtable-python-wrapper
