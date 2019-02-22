@@ -24,12 +24,12 @@ for record in records:
     try:
         title = record['Title']
     except KeyError:
-        title = 'BLANK'
+        title = ''
 
     try:
         url = record['URL']
     except KeyError:
-        url = 'BLANK'
+        url = ''
 
     try:
         date = record['Date']
@@ -40,17 +40,17 @@ for record in records:
         # Remove leading 0 from dates
         date = datetime.strftime(date, '%B %d, %Y').replace(" 0", " ")
     except KeyError:
-        date = 'BLANK'
+        date = ''
 
     try:
         company = record['Company']
     except KeyError:
-        company = 'BLANK'
+        company = ''
 
     try:
         desc = record['Description']
     except KeyError:
-        desc = 'BLANK'
+        desc = ''
 
     # Create event list dictionary
     item = {"title": title,
